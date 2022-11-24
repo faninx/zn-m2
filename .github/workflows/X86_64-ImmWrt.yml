@@ -10,8 +10,8 @@ name: X86编译off版openwrt
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 19 * * *'
+  #schedule:
+  #  - cron: '0 19 * * *'
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
