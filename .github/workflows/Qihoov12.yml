@@ -10,8 +10,8 @@ name:  QihooV6编译openwrt版openwrt
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 17 * * *'
+  #schedule:
+  #  - cron: '0 17 * * *'
 
 env:
   REPO_URL: https://github.com/aoxueos/openwrt
